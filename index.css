@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+}
+
+#navBarLogo > img{
+    max-height: 3rem;
+}
+
+#tag_line_red{
+    color: red;
+}
+
+#tag_line_blue{
+    color: blue;
+}
+#tag_line_green {
+    color: green;
+}
+
+#number{
+    text-decoration: none;
+}
+#telephone_number{
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px 6px 0 0;
+    background-color: #1D5D93;
+    color: #fff;
+}
+
+#landingBgImageContainer{
+    width: 100%;
+    height: 80vh;
+    background-image: url('./images/landingPageBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+#landingPageAdmissionTagContainer {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+}
+#landingPageAdmissionTagContainer > img {
+    max-width: 10vw;
+    margin-top: -0.5rem;
+}
+#landingBgImageContainer > div:nth-child(2) > div:first-child {
+    font-size: 5rem;
+    font-family: Merriweather;
+    font-weight: 500;
+}
+#landingBgImageContainer > div:nth-child(2) > div:nth-child(2) {
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 100;
+}
+
+#regFormContainer {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    margin-top: -80vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 40px;
+}
+#regFormDiv {
+    width: 25%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#feeInfoContainer {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#universityInfo {
+    background-color: #1D5D93;
+    padding-left: 5.5rem;
+    color: white;
+}
+
+#universityImageBG {
+    height: 50vh;
+    background-color: #1D5D93;
+    background-image: url('./images/universityImage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#highlightsContainer > div:first-child {
+    background-image: url('./images/SBUHighlights.png');
+    background-size: cover;
+}
+
+#highlightsContainer > div:nth-child(2) {
+    background-color: #2172CE;
+    color: white;
+}
+
+#scholarshipIndoContainer {
+    background-color: #DBE8F7;
+}
+
+#footerContainer {
+    background-image: url('./images/footerBG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#copyrightContainer {
+    background-color: #093960;
+    color: #87B3E0;
+}

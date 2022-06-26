@@ -1,0 +1,75 @@
+@media only screen and (max-width: 767px) {
+    #highlightsContainer > div:first-child {
+        display: none;
+    }
+    
+    #highlightsContainer > div:nth-child(2) {
+        background-color: #2172CE;
+        color: white;
+        width: 100%;
+    }
+
+    #feeInfoContainer {
+        text-align: center;
+    }
+
+    #howToApplyContainer > div:nth-child(1){
+        text-align: center;
+    }
+    #howToApplyContainer > div:nth-child(2) {
+        flex-wrap: wrap;
+    }
+    #howToApplyContainer > div:nth-child(2) > div  {
+        width: 50%;
+    }
+
+    #universityInfo {
+        padding-left: 1rem;
+    }
+    #aboutUniversityContainer {
+        justify-content: ;
+    }
+    #aboutUniversityContainer > div {
+        width: 100%;
+    }
+    #universityImageBG {
+        height: 20vh;
+        padding: 0;
+    }
+
+    #landingBgImageContainer {
+        height: 20vh;
+    }
+    #landingPageAdmissionTagContainer {
+        width: 100%;
+        height: 20vh;
+        position: absolute;
+    }
+    #landingPageAdmissionTagContainer > img {
+        max-width: 15vw;
+    }
+    #landingBgImageContainer > div:nth-child(2) > div:first-child {
+        font-size: 1.5rem;
+        font-family: Merriweather;
+        font-weight: 500;
+    }
+    #landingBgImageContainer > div:nth-child(2) > div:nth-child(2) {
+        font-size: 1rem;
+        font-family: Montserrat;
+        font-weight: 100;
+    }
+
+    #regFormContainer {
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        border: 1px solid red;
+        margin-top: 0;
+    }
+    #regFormDiv {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+}
